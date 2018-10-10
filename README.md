@@ -121,7 +121,7 @@ pip --version  # should print at least 9.0.
 Clone this Country Package on your machine:
 
 ```sh
-git clone https://github.com/openfisca/openfisca-uruguay.git
+git clone https://github.com/ServiceInnovationLab/openfisca-uruguay.git
 cd openfisca-uruguay
 pip install --editable .[dev]
 ```
