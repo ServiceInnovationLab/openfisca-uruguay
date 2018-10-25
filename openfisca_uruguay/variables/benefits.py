@@ -33,7 +33,6 @@ class edad_de_jubilacion(Variable):
         retirement_ages = (worked_for_30 * 60) + \
             (worked_for_15 * not_(worked_for_30) * 70)
 
-       
         # if a woman, subtract one year for each child
         women = (person('gender', period) == 1)
 
