@@ -35,7 +35,6 @@ class edad_de_jubilacion(Variable):
 
         # if a woman, subtract one year for each child
         women = (person('gender', period) == 1)
-
         child_offset = (women * person('number_of_children', period))
 
         return retirement_ages - child_offset
