@@ -1,10 +1,8 @@
 # A parameter can contain utf-8 characters.
-description: Age of retirement (in years). In French âge de la retraite (en années).
+description: Edad de jubilacion (in years)
 metadata:
-  reference: https://fr.wikipedia.org/wiki/Retraite_(économie)
+  reference: https://legislativo.parlamento.gub.uy/temporales/leytemp5815466.htm
   unit: year
 values:
   2017-01-01:
-    value: 62.0
-  1951-07-01:
-    value: 60.33
+    value: 60
