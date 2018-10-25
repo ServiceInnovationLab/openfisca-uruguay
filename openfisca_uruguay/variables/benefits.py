@@ -2,7 +2,6 @@
 
 from openfisca_core.model_api import *
 from openfisca_uruguay.entities import *
-from openfisca_uruguay.variables.demographics import Genders
 
 
 class eligible_for_pension(Variable):
