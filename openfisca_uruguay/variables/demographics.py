@@ -48,4 +48,4 @@ class gender(Variable):
     default_value = Genders.unspecified
     entity = Person
     definition_period = MONTH
-    label = u"A Person's gender"
+    label = u"A person's gender"
