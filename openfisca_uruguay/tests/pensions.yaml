@@ -1,0 +1,42 @@
+
+# Test files describe situations and their expected outcomes
+# We can run this test on our command line using `openfisca-run-test social_security_contribution.yaml`
+
+- name: Worked for 5
+  period: 2018-01
+  input_variables:
+    number_of_years_worked: 5
+  output_variables:
+    edad_de_jubilacion: 0
+
+- name: Worked for 15
+  period: 2018-01
+  input_variables:
+    number_of_years_worked: 16
+  output_variables:
+    edad_de_jubilacion: 70
+
+- name: Worked for 30
+  period: 2018-01
+  input_variables:
+    number_of_years_worked: 31
+  output_variables:
+    edad_de_jubilacion: 60
+
+- name: Woman with 5 children
+  period: 2018-01
+  input_variables:
+    number_of_years_worked: 31
+    number_of_children: 5
+    gender: woman
+  output_variables:
+    edad_de_jubilacion: 55
+
+- name: Man with 5 children
+  period: 2018-01
+  input_variables:
+    number_of_years_worked: 31
+    number_of_children: 5
+    gender: man
+  output_variables:
+    edad_de_jubilacion: 60
