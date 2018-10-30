@@ -8,4 +8,4 @@ class number_of_children(Variable):
     value_type = int
     entity = Person
     definition_period = MONTH
-    label = "Number of years worked"
+    label = "Number of children"
