@@ -9,7 +9,7 @@ class eligible_for_pension(Variable):
     entity = Person
     definition_period = MONTH
     label = "Eligiblity for pension"
-    reference = "https://legislativo.parlamento.gub.uy/temporales/leytemp5815466.htm"
+    reference = "https://www.bps.gub.uy/3498/jubilaciones.html"
 
     def formula(person, period, parameters):
         return person('number_of_years_worked', period) >= 15
