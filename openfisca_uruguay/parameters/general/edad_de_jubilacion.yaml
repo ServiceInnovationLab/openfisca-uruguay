@@ -1,5 +1,5 @@
 # A parameter can contain utf-8 characters.
-description: Edad de jubilacion (in years)
+description: Edad de Jubilación
 metadata:
   reference: https://www.bps.gub.uy/3498/jubilaciones.html
   unit: year
