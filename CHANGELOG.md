@@ -1,5 +1,11 @@
 # Changelog
 
+### 3.4.0
+* Bug fix
+* Details
+  - Fixed calculation of women's retirement age. A child reduces the number of years
+    worked needed, not the age of retirement
+
 ### 3.3.2
 
 * Minor change
